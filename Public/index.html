@@ -23,19 +23,23 @@
         background-color: rgb(200, 100, 100);
         border: 2px solid black;
       }
+      .test{
+        background-color: grey;
+        border: 3px solid;
+      }
     </style>
   </head>
   <body style="background-color:grey;">
     <nav class="navbar navbar-custom navbar-expand-md bg-light">
-      <div class="container-fluid">
-        <div class="navbar-header red">
+      <div class="container-fluid test">
+        <div class="navbar-header">
           <a class="navbar-brand">Table of Contents</a>
         </div>
         <ul class="nav navbar-nav">
           <li class="active"><a href="#"></a></li>
           <li class="nav-item"><a href="index.html"> Main Page </a></li>
           <li class="nav-item"><a href="personal_info.html"> Personal Information </a></li>
-          <li class="nav-item"><a href="#"> Table of Relatives </a></li>
+          <li class="nav-item"><a href="table.html"> Table of Relatives </a></li>
         </ul>
       </div>
     </nav>
@@ -46,7 +50,9 @@
       <div class="col">
         <h5>Please refer to the Navigation Bar to access specific information.</h5>
       </div>
-      <img src="/img/Information_Image.jpg" alt="Information Image">
+      <a  href="img/Information_Image.jpg">
+        <img src="img/Information_Image.jpg" class="img-thumbnail" alt="Information Image">
+      </a>
     </div>
   </body>
 </html>

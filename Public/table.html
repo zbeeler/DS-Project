@@ -15,13 +15,48 @@
       .table-element{
         border: 2px solid;
       }
+      .header{
+        background-color: rgb(200, 100, 100);
+        border: 3px solid black;
+      }
+      .nav-item{
+        background-color: rgb(200, 100, 100);
+        border: 2px solid black;
+        font-weight: normal;
+        font-size: 14px;
+      }
+      .navbar-brand{
+        background-color: rgb(200, 100, 100);
+        border: 2px solid black;
+        font-size: 30px;
+      }
+      .test{
+        background-color: grey;
+        border: 3px solid;
+      }
+      .has-border{
+        border: 1px solid black;
+      }
     </style>
     <title>Hello, world!</title>
   </head>
-  <body>
-    <h1>Further Information</h1>
+  <body style="background-color:grey;">
+    <nav class="navbar navbar-custom navbar-expand-md bg-light">
+      <div class="container-fluid test">
+        <div class="navbar-header">
+          <a class="navbar-brand">Table of Contents</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#"></a></li>
+          <li class="nav-item"><a href="index.html"> Main Page </a></li>
+          <li class="nav-item"><a href="personal_info.html"> Personal Information </a></li>
+          <li class="nav-item"><a href="table.html"> Table of Relatives </a></li>
+        </ul>
+      </div>
+    </nav>
+    <h1 class="header">Further Information</h1>
     <div class="container">
-      <p>This table provides some more information.</p>
+      <p class="header">This table provides some more information.</p>
       <table class="table table-striped">
         <thead>
           <tr>
@@ -64,6 +99,25 @@
           </tr>
         </tbody>
       </table>
+      <form class="form-inline">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input class="has-border" type="name" />
+        </div>
+        <div class="form-group">
+          <label for="Salary">Salary:</label>
+          <input class="has-border" type="name" />
+        </div>
+        <div class="form-group">
+          <label for="Birthdate">Birthdate:</label>
+          <input class="has-border" type="name" />
+        </div>
+        <div class="form-group">
+          <label for="Favorite Color">Favorite Color:</label>
+          <input class="has-border" type="Favorite Color" />
+        </div>
+        <button class="has-border">Submit</button>
+      </form>
     </div>
   </body>
 </html>
