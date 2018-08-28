@@ -1,4 +1,55 @@
-.nav-item, .col{
-  color:red;
-  background-color: lightblue;
+.table{
+  background-color: rgb(200, 100, 100);
+  border: 3px solid black;
+}
+.table-element{
+  border: 2px solid;
+}
+.header{
+  background-color: rgb(200, 100, 100);
+  border: 3px solid black;
+  color: powderblue;
+}
+.nav-item{
+  background-color: rgb(200, 100, 100);
+  border: 2px solid black;
+  font-weight: normal;
+  font-size: 14px;
+}
+.navbar-brand{
+  background-color: rgb(200, 100, 100);
+  border: 2px solid black;
+  font-size: 30px;
+}
+.test{
+  background-color: grey;
+  border: 3px solid;
+}
+.has-border{
+  border: 1px solid black;
+}
+.label{
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgb(200, 100, 100);
+  border: 2px solid black;
+}
+.data{
+  font-size: 16px;
+  background-color: rgb(200, 50, 50);
+  border: 2px solid black;
+}
+#para1{
+  background-color: rgb(200, 100, 100);
+  border: 2px solid black;
+}
+.intro{
+  color: powderblue;
+}
+.body{
+  background-color: rgb(200, 100, 100);
+  border: 2px solid black;
+}
+.intro{
+  color: powderblue;
 }
