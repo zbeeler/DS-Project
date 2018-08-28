@@ -18,6 +18,7 @@
       .header{
         background-color: rgb(200, 100, 100);
         border: 3px solid black;
+        color: powderblue;
       }
       .nav-item{
         background-color: rgb(200, 100, 100);
@@ -50,7 +51,7 @@
           <li class="active"><a href="#"></a></li>
           <li class="nav-item"><a href="index.html"> Main Page </a></li>
           <li class="nav-item"><a href="personal_info.html"> Personal Information </a></li>
-          <li class="nav-item"><a href="table.html"> Table of Relatives </a></li>
+          <li class="nav-item"><a href="table.html"> Table of Information </a></li>
         </ul>
       </div>
     </nav>
@@ -61,7 +62,7 @@
         <thead>
           <tr>
             <th class="table-element">Name</th>
-            <th class="table-element">Salary</th>
+            <th class="table-element">Favorite Number</th>
             <th class="table-element">Birthdate</th>
             <th class="table-element">Favorite Color</th>
           </tr>
@@ -69,13 +70,13 @@
         <tbody>
           <tr>
             <td class="table-element">Jason</td>
-            <td class="table-element">$1,000,000</td>
+            <td class="table-element">123</td>
             <td class="table-element">12/12/1998</td>
             <td class="table-element">Red</td>
           </tr>
           <tr>
             <td class="table-element">Homer</td>
-            <td class="table-element">$12,000</td>
+            <td class="table-element">27</td>
             <td class="table-element">07/01/1934</td>
             <td class="table-element">Blue</td>
           </tr>
@@ -87,13 +88,13 @@
           </tr>
           <tr>
             <td class="table-element">Sam</td>
-            <td class="table-element">$73,000</td>
+            <td class="table-element">87</td>
             <td class="table-element">09/09/1999</td>
             <td class="table-element">Grey</td>
           </tr>
           <tr>
             <td class="table-element">Earl</td>
-            <td class="table-element">$19,000</td>
+            <td class="table-element">23</td>
             <td class="table-element">05/21/1849</td>
             <td class="table-element">Black</td>
           </tr>
@@ -105,16 +106,16 @@
           <input class="has-border" type="name" />
         </div>
         <div class="form-group">
-          <label for="Salary">Salary:</label>
-          <input class="has-border" type="name" />
+          <label for="Salary">Favorite Number:</label>
+          <input class="has-border" type="number" />
         </div>
         <div class="form-group">
           <label for="Birthdate">Birthdate:</label>
-          <input class="has-border" type="name" />
+          <input class="has-border" type="date" />
         </div>
         <div class="form-group">
           <label for="Favorite Color">Favorite Color:</label>
-          <input class="has-border" type="Favorite Color" />
+          <input class="has-border" type="text" />
         </div>
         <button class="has-border">Submit</button>
       </form>
